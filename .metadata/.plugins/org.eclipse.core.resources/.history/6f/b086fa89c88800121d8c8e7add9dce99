@@ -16,7 +16,7 @@
 					<legend>Dados do Produto</legend>
 
 					<h:outputLabel value="Nome: " for="nome" />
-					<h:inputText id="nome" value="#{produtoBean.produto.nome}" validator="#{produtoBean.comecaComMaiuscula}"/>
+					<h:inputText id="nome" value="#{produtoBean.produto.nome}" />
 
 					<h:outputLabel value="Descrição: " for="descricao" />
 					<h:inputTextarea id="descricao"
