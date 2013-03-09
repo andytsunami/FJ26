@@ -10,7 +10,7 @@
 	<ui:composition template="_template.xhtml">
 		<ui:define name="corpo">
 			<h:form id="cadastro">
-			  <h:messages styleClass="erros"/>
+				<h:messages styleClass="erros" />
 				<h2>Novo produto</h2>
 				<fieldset>
 					<legend>Dados do Produto</legend>
@@ -24,7 +24,11 @@
 
 
 					<h:outputLabel value="Preço: " for="preco" />
-					<h:inputText id="preco" value="#{produtoBean.produto.preco}" />
+					<h:inputText id="preco" value="#{produtoBean.produto.preco}"
+						validatorMessage="O valor mínimo é 0,50" required="true"
+						requiredMessage="Preço obrigatorio">
+						<f:validateDoubleRange minimum="0.50" />
+					</h:inputText>
 
 
 					<f:ajax execute="@form" render=":tabela @form">
