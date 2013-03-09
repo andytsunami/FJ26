@@ -20,20 +20,16 @@ public class ProdutoBean {
 	}
 
 	public void grava() {
-
+		
 		DAO<Produto> dao = new DAO<Produto>(Produto.class);
-		if (produto.getId() == null) {
-			dao.adiciona(produto);
-		} else {
+		if(produto.getId() == null){
+		dao.adiciona(produto);
+		}else{
 			dao.atualiza(produto);
 		}
 		produto = new Produto();
 		this.produtos = dao.listaTodos();
 		this.calculaSomatorio();
-	}
-
-	public void setProduto(Produto produto) {
-		this.produto = produto;
 	}
 
 	public List<Produto> getProdutos() {

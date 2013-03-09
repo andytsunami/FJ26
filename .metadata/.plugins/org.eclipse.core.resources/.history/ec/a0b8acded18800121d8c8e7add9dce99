@@ -67,7 +67,7 @@
 					<h:column>
 						<f:facet name="header">Excluir</f:facet>
 						<h:commandLink value="Remove" action="#{produtoBean.remove(p)}">
-							<f:ajax render="@form" />
+							
 						</h:commandLink>
 					</h:column>
 					<h:column>

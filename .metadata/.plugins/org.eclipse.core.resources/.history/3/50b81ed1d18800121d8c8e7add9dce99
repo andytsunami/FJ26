@@ -73,6 +73,7 @@
 					<h:column>
 						<f:facet name="header">Alterar</f:facet>
 						<h:commandLink value="Alterar">
+							<f:ajax/>
 							<f:setPropertyActionListener value="#{produto}"
 								target="#{produtoBean.produto}" />
 						</h:commandLink>

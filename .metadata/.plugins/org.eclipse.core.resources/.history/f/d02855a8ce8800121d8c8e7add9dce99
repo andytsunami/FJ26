@@ -37,7 +37,7 @@
 						<h:commandButton value="Gravar" action="#{produtoBean.grava}" />
 						<h:commandButton value="Cancelar a edição"
 							action="#{produtoBean.cancela}" update="@form"
-							rendered="#{not empty produtoBean.produto.id}" />
+							rendered="#{not empty produtoBean.prodduto.id}" />
 					</f:ajax>
 
 
@@ -68,13 +68,6 @@
 						<f:facet name="header">Excluir</f:facet>
 						<h:commandLink value="Remove" action="#{produtoBean.remove(p)}">
 							<f:ajax render="@form" />
-						</h:commandLink>
-					</h:column>
-					<h:column>
-						<f:facet name="header">Alterar</f:facet>
-						<h:commandLink value="Alterar">
-							<f:setPropertyActionListener value="#{produto}"
-								target="#{produtoBean.produto}" />
 						</h:commandLink>
 					</h:column>
 

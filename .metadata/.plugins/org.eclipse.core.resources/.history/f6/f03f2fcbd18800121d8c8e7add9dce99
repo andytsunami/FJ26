@@ -73,7 +73,7 @@
 					<h:column>
 						<f:facet name="header">Alterar</f:facet>
 						<h:commandLink value="Alterar">
-							<f:setPropertyActionListener value="#{produto}"
+							<f:setPropertyActionListener value="#{produtoo}"
 								target="#{produtoBean.produto}" />
 						</h:commandLink>
 					</h:column>

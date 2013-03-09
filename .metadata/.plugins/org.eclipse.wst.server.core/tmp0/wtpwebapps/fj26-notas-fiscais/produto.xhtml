@@ -17,7 +17,7 @@
 
 					<h:outputLabel value="Nome: " for="nome" />
 					<h:inputText id="nome" value="#{produtoBean.produto.nome}">
-					  <f:validator validatorId="ccm"/>
+						<f:validator validatorId="ccm" />
 					</h:inputText>
 
 					<h:outputLabel value="Descrição: " for="descricao" />
@@ -35,6 +35,9 @@
 
 					<f:ajax execute="@form" render=":tabela @form">
 						<h:commandButton value="Gravar" action="#{produtoBean.grava}" />
+						<h:commandButton value="Cancelar a edição"
+							action="#{produtoBean.cancela}" update="@form"
+							rendered="#{not empty produtoBean.produto.id}" />
 					</f:ajax>
 
 
@@ -65,6 +68,13 @@
 						<f:facet name="header">Excluir</f:facet>
 						<h:commandLink value="Remove" action="#{produtoBean.remove(p)}">
 							<f:ajax render="@form" />
+						</h:commandLink>
+					</h:column>
+					<h:column>
+						<f:facet name="header">Alterar</f:facet>
+						<h:commandLink value="Alterar">
+							<f:setPropertyActionListener value="#{produto}"
+								target="#{produtoBean.produto}" />
 						</h:commandLink>
 					</h:column>
 

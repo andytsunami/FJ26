@@ -71,11 +71,10 @@
 						</h:commandLink>
 					</h:column>
 					<h:column>
-						<f:facet name="header">Alterar</f:facet>
-						<h:commandLink value="Alterar">
-							<f:setPropertyActionListener value="#{produto}"
-								target="#{produtoBean.produto}" />
-						</h:commandLink>
+					  <f:facet name="header">Alterar</f:facet>
+					  <h:commandLink value="Alterar">
+					    <f:setPropertyActionListener value="#{produto}" target="#{produtoBean.produto}"/>
+					  </h:commandLink>
 					</h:column>
 
 				</h:dataTable>
