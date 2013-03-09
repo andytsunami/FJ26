@@ -1,0 +1,17 @@
+1357235111955	Delete element
+1357235177495	Move 1 resources to 'fj15-empresa'
+1357235205195	Move 1 resources to 'empresa'
+1357235226515	Delete element
+1357235690666	Rename type 'Importador'
+1357235761296	Rename local variable 'tp'
+1357235781826	Rename local variable 'dt'
+1357235809426	Rename local variable 'vl'
+1357235832956	Rename local variable 'mat'
+1357235843946	Rename local variable 'nome'
+1357235854446	Rename local variable 'dataNascTxt'
+1357236314023	Extract method 'criaData'
+1357236382153	Rename method 'criaData'
+1357305453465	Rename local variable 'dataNascimento'
+1357320801051	Rename type 'Pessoa'
+1357320965202	Extract superclass 'Pessoa'
+1357321814367	Rename type 'Pessoa'

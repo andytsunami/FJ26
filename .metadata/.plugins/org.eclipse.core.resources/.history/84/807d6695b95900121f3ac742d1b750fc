@@ -1,0 +1,11 @@
+package br.com.caelum.model.comercial;
+
+public class TestePizza {
+	public static void main(String[] args) {
+		Pizza pizza = new Pizza("Wilian", 23);
+
+
+		System.out.println(pizza.getNome() + pizza.getIdade());
+	}
+
+}

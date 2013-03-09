@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="54" version="2.0">
+<workbenchAdvisor/>
+<window height="744" maximized="true" width="1024" x="0" y="24">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="132" y="30"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
+<coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="84" y="30"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="104" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jst.jsf.facesconfig.ui.FacesConfigEditor" itemType="typeToolBarContribution" x="443" y="30"/>
+<coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jpt.jpa.ui.internal.editors.PersistenceEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1361017559346" focus="true" label="Workspace - Java EE">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="1"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="15"/>
+<part id="13"/>
+<part id="14"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProdutoBean.java" partName="ProdutoBean.java" path="/media/CAELUM/FJ26/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/ProdutoBean.java" title="ProdutoBean.java" tooltip="fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/ProdutoBean.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/ProdutoBean.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="988" selectionTopPixel="343"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="produto.xhtml" partName="produto.xhtml" path="/media/CAELUM/FJ26/fj26-notas-fiscais/WebContent/produto.xhtml" title="produto.xhtml" tooltip="fj26-notas-fiscais/WebContent/produto.xhtml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/WebContent/produto.xhtml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="519" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.css.core.csssource.source" name="style.css" partName="style.css" path="/media/CAELUM/FJ26/fj26-notas-fiscais/WebContent/resources/css/style.css" title="style.css" tooltip="fj26-notas-fiscais/WebContent/resources/css/style.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/WebContent/resources/css/style.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3244" selectionTopPixel="3363"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CicloDeVidaListener.java" partName="CicloDeVidaListener.java" path="/media/CAELUM/FJ26/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/listener/CicloDeVidaListener.java" title="CicloDeVidaListener.java" tooltip="fj26-notas-fiscais/src/br/com/caelum/notasfiscais/listener/CicloDeVidaListener.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/listener/CicloDeVidaListener.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="541" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jst.jsf.facesconfig.ui.FacesConfigEditor" name="faces-config.xml" partName="faces-config.xml" path="/media/CAELUM/FJ26/fj26-notas-fiscais/WebContent/WEB-INF/faces-config.xml" title="faces-config.xml" tooltip="fj26-notas-fiscais/WebContent/WEB-INF/faces-config.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/WebContent/WEB-INF/faces-config.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginBean.java" partName="LoginBean.java" path="/media/CAELUM/FJ26/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/LoginBean.java" title="LoginBean.java" tooltip="fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/LoginBean.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/LoginBean.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="617" selectionTopPixel="91"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="login.xhtml" partName="login.xhtml" path="/media/CAELUM/FJ26/fj26-notas-fiscais/WebContent/login.xhtml" title="login.xhtml" tooltip="fj26-notas-fiscais/WebContent/login.xhtml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/WebContent/login.xhtml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="525" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Autorizador.java" partName="Autorizador.java" path="/media/CAELUM/FJ26/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/listener/Autorizador.java" title="Autorizador.java" tooltip="fj26-notas-fiscais/src/br/com/caelum/notasfiscais/listener/Autorizador.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/listener/Autorizador.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="319" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="_template.xhtml" partName="_template.xhtml" path="/media/CAELUM/FJ26/fj26-notas-fiscais/WebContent/_template.xhtml" title="_template.xhtml" tooltip="fj26-notas-fiscais/WebContent/_template.xhtml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/WebContent/_template.xhtml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="852" selectionTopPixel="51"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="campoTexto.xhtml" partName="campoTexto.xhtml" path="/media/CAELUM/FJ26/fj26-notas-fiscais/WebContent/resources/caelum/campoTexto.xhtml" title="campoTexto.xhtml" tooltip="fj26-notas-fiscais/WebContent/resources/caelum/campoTexto.xhtml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/WebContent/resources/caelum/campoTexto.xhtml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="505" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="index.xhtml" partName="index.xhtml" path="/media/CAELUM/FJ26/fj26-notas-fiscais/WebContent/index.xhtml" title="index.xhtml" tooltip="fj26-notas-fiscais/WebContent/index.xhtml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/WebContent/index.xhtml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="482" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NotaFiscal.java" partName="NotaFiscal.java" path="/media/CAELUM/FJ26/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/modelo/NotaFiscal.java" title="NotaFiscal.java" tooltip="fj26-notas-fiscais/src/br/com/caelum/notasfiscais/modelo/NotaFiscal.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/modelo/NotaFiscal.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1013" selectionTopPixel="8"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Item.java" partName="Item.java" path="/media/CAELUM/FJ26/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/modelo/Item.java" title="Item.java" tooltip="fj26-notas-fiscais/src/br/com/caelum/notasfiscais/modelo/Item.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/modelo/Item.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="615" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NotaFiscalBean.java" partName="NotaFiscalBean.java" path="/media/CAELUM/FJ26/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/NotaFiscalBean.java" title="NotaFiscalBean.java" tooltip="fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/NotaFiscalBean.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/NotaFiscalBean.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1184" selectionTopPixel="339"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" partName="web.xml" path="/media/CAELUM/FJ26/fj26-notas-fiscais/WebContent/WEB-INF/web.xml" title="web.xml" tooltip="fj26-notas-fiscais/WebContent/WEB-INF/web.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/WebContent/WEB-INF/web.xml"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="notafiscal.xhtml" partName="notafiscal.xhtml" path="/media/CAELUM/FJ26/fj26-notas-fiscais/WebContent/notafiscal.xhtml" title="notafiscal.xhtml" tooltip="fj26-notas-fiscais/WebContent/notafiscal.xhtml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/WebContent/notafiscal.xhtml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1986" selectionTopPixel="431"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="listanotas.xhtml" partName="listanotas.xhtml" path="/media/CAELUM/FJ26/fj26-notas-fiscais/WebContent/listanotas.xhtml" title="listanotas.xhtml" tooltip="fj26-notas-fiscais/WebContent/listanotas.xhtml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/WebContent/listanotas.xhtml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="761" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DAO.java" partName="DAO.java" path="/media/CAELUM/FJ26/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/dao/DAO.java" title="DAO.java" tooltip="fj26-notas-fiscais/src/br/com/caelum/notasfiscais/dao/DAO.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/dao/DAO.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1658" selectionTopPixel="913"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataModelNotasFiscais.java" partName="DataModelNotasFiscais.java" path="/media/CAELUM/FJ26/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/datamodel/DataModelNotasFiscais.java" title="DataModelNotasFiscais.java" tooltip="fj26-notas-fiscais/src/br/com/caelum/notasfiscais/datamodel/DataModelNotasFiscais.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/datamodel/DataModelNotasFiscais.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="569" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListaNotasFiscaisBean.java" partName="ListaNotasFiscaisBean.java" path="/media/CAELUM/FJ26/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/ListaNotasFiscaisBean.java" title="ListaNotasFiscaisBean.java" tooltip="fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/ListaNotasFiscaisBean.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/ListaNotasFiscaisBean.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="352" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.wst.html.core.htmlsource.source" name="listanotaspaginada.xhtml" partName="listanotaspaginada.xhtml" path="/media/CAELUM/FJ26/fj26-notas-fiscais/WebContent/listanotaspaginada.xhtml" title="listanotaspaginada.xhtml" tooltip="fj26-notas-fiscais/WebContent/listanotaspaginada.xhtml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fj26-notas-fiscais/WebContent/listanotaspaginada.xhtml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="71" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="1" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
+<columnWidths org.eclipse.ui.ide.allSeverityField="350" org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="389" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
+</viewState>
+</view>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" showCategories="true"/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers">
+<viewState CommonNavigator.LINKING_ENABLED="0"/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.wst.html.core.htmlsource.source" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.jst.j2ee.J2eeMainActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.ws.explorer.explorer"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.wst.server.ui.ServersView"/>
+<show_view_action id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<show_view_action id="org.eclipse.ui.views.AllMarkersView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<new_wizard_action id="org.eclipse.jpt.jpa.ui.wizard.newJpaProject"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.ui.project.facet.EarProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.project.facet.EjbProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.jca.ui.internal.wizard.ConnectorProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.ui.project.facet.appclient.AppClientProjectWizard"/>
+<new_wizard_action id="org.eclipse.wst.web.ui.internal.wizards.SimpleWebProjectWizard"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newJpaProject"/>
+<new_wizard_action id="org.eclipse.jst.servlet.ui.internal.wizard.AddServletWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.internal.wizard.AddSessionBeanWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.internal.wizard.AddMessageDrivenBeanWizard"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newEntity"/>
+<new_wizard_action id="org.eclipse.jst.ws.creation.ui.wizard.serverwizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="org.eclipse.jpt.ui.jpaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.wst.web.ui.webDevPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.AllMarkersView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.wst.server.ui.ServersView"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.21254613" ratioLeft="288" ratioRight="1067" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.5163297" ratioLeft="332" ratioRight="311" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
+<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
+<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.69920844" ratioLeft="530" ratioRight="228" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/fj26-notas-fiscais/WebContent/notafiscal.xhtml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/fj26-notas-fiscais/WebContent/listanotas.xhtml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/NotaFiscalBean.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/dao/DAO.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/fj26-notas-fiscais/WebContent/WEB-INF/web.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/datamodel/DataModelNotasFiscais.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/ListaNotasFiscaisBean.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/fj26-notas-fiscais/WebContent/listanotaspaginada.xhtml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/LoginBean.java"/>
+</editors>
+<item historyLabel="listanotas.xhtml" index="1">
+<position/>
+</item>
+<item historyLabel="DAO.java" index="3">
+<position info="not_deleted" x="1658" y="0"/>
+</item>
+<item historyLabel="NotaFiscalBean.java" index="2">
+<position info="not_deleted" x="1184" y="0"/>
+</item>
+<item historyLabel="notafiscal.xhtml" index="0">
+<position info="not_deleted" x="1985" y="0"/>
+</item>
+<item historyLabel="listanotas.xhtml" index="1">
+<position info="not_deleted" x="711" y="0"/>
+</item>
+<item historyLabel="DAO.java" index="3">
+<position info="not_deleted" x="1658" y="0"/>
+</item>
+<item historyLabel="listanotas.xhtml" index="1">
+<position info="not_deleted" x="711" y="0"/>
+</item>
+<item historyLabel="web.xml" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="NotaFiscalBean.java" index="2">
+<position info="not_deleted" x="1184" y="0"/>
+</item>
+<item historyLabel="notafiscal.xhtml" index="0">
+<position info="not_deleted" x="1986" y="0"/>
+</item>
+<item historyLabel="NotaFiscalBean.java" index="2">
+<position info="not_deleted" x="1184" y="0"/>
+</item>
+<item historyLabel="web.xml" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="listanotas.xhtml" index="1">
+<position info="not_deleted" x="711" y="0"/>
+</item>
+<item historyLabel="DataModelNotasFiscais.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DataModelNotasFiscais.java" index="5">
+<position info="not_deleted" x="340" y="0"/>
+</item>
+<item historyLabel="DataModelNotasFiscais.java" index="5">
+<position info="not_deleted" x="286" y="21"/>
+</item>
+<item historyLabel="DataModelNotasFiscais.java" index="5">
+<position/>
+</item>
+<item historyLabel="DataModelNotasFiscais.java" index="5">
+<position info="not_deleted" x="516" y="3"/>
+</item>
+<item historyLabel="DataModelNotasFiscais.java" index="5">
+<position info="not_deleted" x="502" y="15"/>
+</item>
+<item historyLabel="DataModelNotasFiscais.java" index="5">
+<position info="not_deleted" x="700" y="0"/>
+</item>
+<item historyLabel="DataModelNotasFiscais.java" index="5">
+<position info="not_deleted" x="518" y="3"/>
+</item>
+<item historyLabel="DataModelNotasFiscais.java" index="5">
+<position info="not_deleted" x="502" y="15"/>
+</item>
+<item historyLabel="DataModelNotasFiscais.java" index="5">
+<position info="not_deleted" x="683" y="0"/>
+</item>
+<item historyLabel="DataModelNotasFiscais.java" index="5">
+<position info="not_deleted" x="697" y="0"/>
+</item>
+<item historyLabel="ListaNotasFiscaisBean.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ListaNotasFiscaisBean.java" index="6">
+<position info="not_deleted" x="468" y="0"/>
+</item>
+<item historyLabel="ListaNotasFiscaisBean.java" index="6">
+<position info="not_deleted" x="436" y="3"/>
+</item>
+<item historyLabel="ListaNotasFiscaisBean.java" index="6">
+<position info="not_deleted" x="621" y="0"/>
+</item>
+<item historyLabel="DataModelNotasFiscais.java" index="5">
+<position info="not_deleted" x="697" y="0"/>
+</item>
+<item historyLabel="DataModelNotasFiscais.java" index="5">
+<position info="not_deleted" x="696" y="0"/>
+</item>
+<item historyLabel="listanotas.xhtml" index="1">
+<position info="not_deleted" x="761" y="0"/>
+</item>
+<item historyLabel="listanotaspaginada.xhtml" index="7">
+<position info="not_deleted" x="853" y="0"/>
+</item>
+<item historyLabel="ListaNotasFiscaisBean.java" index="6">
+<position info="not_deleted" x="352" y="0"/>
+</item>
+<item historyLabel="listanotaspaginada.xhtml" index="7">
+<position/>
+</item>
+<item historyLabel="ListaNotasFiscaisBean.java" index="6">
+<position info="not_deleted" x="323" y="0"/>
+</item>
+<item historyLabel="listanotaspaginada.xhtml" index="7">
+<position info="not_deleted" x="529" y="0"/>
+</item>
+<item historyLabel="ListaNotasFiscaisBean.java" index="6">
+<position info="not_deleted" x="323" y="0"/>
+</item>
+<item historyLabel="DataModelNotasFiscais.java" index="5">
+<position info="not_deleted" x="705" y="0"/>
+</item>
+<item historyLabel="listanotaspaginada.xhtml" index="7">
+<position info="not_deleted" x="525" y="0"/>
+</item>
+<item historyLabel="ListaNotasFiscaisBean.java" index="6">
+<position info="not_deleted" x="323" y="0"/>
+</item>
+<item historyLabel="listanotaspaginada.xhtml" index="7">
+<position info="not_deleted" x="484" y="0"/>
+</item>
+<item historyLabel="ListaNotasFiscaisBean.java" index="6">
+<position info="not_deleted" x="352" y="0"/>
+</item>
+<item historyLabel="DataModelNotasFiscais.java" index="5">
+<position info="not_deleted" x="705" y="0"/>
+</item>
+<item historyLabel="DataModelNotasFiscais.java" index="5">
+<position info="not_deleted" x="644" y="0"/>
+</item>
+<item historyLabel="LoginBean.java" index="8">
+<position info="not_deleted" x="617" y="0"/>
+</item>
+<item historyLabel="ListaNotasFiscaisBean.java" index="6">
+<position info="not_deleted" x="352" y="0"/>
+</item>
+<item historyLabel="DataModelNotasFiscais.java" index="5">
+<position info="not_deleted" x="569" y="0"/>
+</item>
+<item historyLabel="listanotas.xhtml" index="1">
+<position info="not_deleted" x="761" y="0"/>
+</item>
+<item historyLabel="ListaNotasFiscaisBean.java" index="6">
+<position info="not_deleted" x="352" y="0"/>
+</item>
+<item active="true" historyLabel="listanotaspaginada.xhtml" index="7">
+<position info="not_deleted" x="484" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottomRight"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="listanotaspaginada.xhtml" tooltip="fj26-notas-fiscais/WebContent/listanotaspaginada.xhtml">
+<persistable path="/fj26-notas-fiscais/WebContent/listanotaspaginada.xhtml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListaNotasFiscaisBean.java" tooltip="fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/ListaNotasFiscaisBean.java">
+<persistable path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/ListaNotasFiscaisBean.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataModelNotasFiscais.java" tooltip="fj26-notas-fiscais/src/br/com/caelum/notasfiscais/datamodel/DataModelNotasFiscais.java">
+<persistable path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/datamodel/DataModelNotasFiscais.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DAO.java" tooltip="fj26-notas-fiscais/src/br/com/caelum/notasfiscais/dao/DAO.java">
+<persistable path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/dao/DAO.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="listanotas.xhtml" tooltip="fj26-notas-fiscais/WebContent/listanotas.xhtml">
+<persistable path="/fj26-notas-fiscais/WebContent/listanotas.xhtml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="notafiscal.xhtml" tooltip="fj26-notas-fiscais/WebContent/notafiscal.xhtml">
+<persistable path="/fj26-notas-fiscais/WebContent/notafiscal.xhtml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" tooltip="fj26-notas-fiscais/WebContent/WEB-INF/web.xml">
+<persistable path="/fj26-notas-fiscais/WebContent/WEB-INF/web.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="notaFiscal.html" tooltip="fj26-notas-fiscais/WebContent/notaFiscal.html">
+<persistable path="/fj26-notas-fiscais/WebContent/notaFiscal.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="notafiscal.html" tooltip="fj26-notas-fiscais/WebContent/notafiscal.html">
+<persistable path="/fj26-notas-fiscais/WebContent/notafiscal.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NotaFiscalBean.java" tooltip="fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/NotaFiscalBean.java">
+<persistable path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/NotaFiscalBean.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Item.java" tooltip="fj26-notas-fiscais/src/br/com/caelum/notasfiscais/modelo/Item.java">
+<persistable path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/modelo/Item.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NotaFiscal.java" tooltip="fj26-notas-fiscais/src/br/com/caelum/notasfiscais/modelo/NotaFiscal.java">
+<persistable path="/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/modelo/NotaFiscal.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.xhtml" tooltip="fj26-notas-fiscais/WebContent/index.xhtml">
+<persistable path="/fj26-notas-fiscais/WebContent/index.xhtml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="campoTexto.xhtml" tooltip="fj26-notas-fiscais/WebContent/resources/caelum/campoTexto.xhtml">
+<persistable path="/fj26-notas-fiscais/WebContent/resources/caelum/campoTexto.xhtml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="_template.xhtml" tooltip="fj26-notas-fiscais/WebContent/_template.xhtml">
+<persistable path="/fj26-notas-fiscais/WebContent/_template.xhtml"/>
+</file>
+</mruList>
+</workbench>

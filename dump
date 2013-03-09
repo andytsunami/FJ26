@@ -1,0 +1,136 @@
+CREATE DATABASE  IF NOT EXISTS `notasfiscais` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `notasfiscais`;
+-- MySQL dump 10.13  Distrib 5.5.22, for debian-linux-gnu (i686)
+--
+-- Host: localhost    Database: notasfiscais
+-- ------------------------------------------------------
+-- Server version	5.5.22-0ubuntu1
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `Item`
+--
+
+DROP TABLE IF EXISTS `Item`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `Item` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `quantidade` int(11) DEFAULT NULL,
+  `valorUnitario` double DEFAULT NULL,
+  `notaFiscal_id` bigint(20) DEFAULT NULL,
+  `produto_id` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK22EF33A6D92C6D` (`notaFiscal_id`),
+  KEY `FK22EF3389AAA5E7` (`produto_id`),
+  CONSTRAINT `FK22EF3389AAA5E7` FOREIGN KEY (`produto_id`) REFERENCES `Produto` (`id`),
+  CONSTRAINT `FK22EF33A6D92C6D` FOREIGN KEY (`notaFiscal_id`) REFERENCES `NotaFiscal` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `Item`
+--
+
+LOCK TABLES `Item` WRITE;
+/*!40000 ALTER TABLE `Item` DISABLE KEYS */;
+INSERT INTO `Item` VALUES (1,2,10,1,16),(2,5,10,2,16),(3,3,21,2,18),(4,1,100,3,17),(5,2,20,3,15),(6,1,20,4,15),(7,5,100,4,17),(8,4,100,5,17),(9,43,100,5,19),(10,5,100,6,17),(11,2,21,6,18),(12,4,100,7,17),(13,6,21,7,18),(14,90,100,7,19),(15,34,10,8,16),(16,33,21,8,18),(17,44,21,8,18),(18,3,20,8,15),(19,0,20,8,15),(20,44,100,8,17),(21,2,100,9,17),(22,100,100,10,19),(23,33,100,11,17),(24,55,100,12,17),(25,11,100,13,17),(26,88,20,14,15),(27,545,21,15,18),(28,34,20,16,15),(29,333,100,17,17),(30,34,21,18,18),(31,44,10,19,16),(32,131,21,20,18),(33,33,20,21,15);
+/*!40000 ALTER TABLE `Item` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `Produto`
+--
+
+DROP TABLE IF EXISTS `Produto`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `Produto` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `descricao` varchar(255) DEFAULT NULL,
+  `nome` varchar(255) DEFAULT NULL,
+  `preco` double DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `Produto`
+--
+
+LOCK TABLES `Produto` WRITE;
+/*!40000 ALTER TABLE `Produto` DISABLE KEYS */;
+INSERT INTO `Produto` VALUES (15,'ajax','ajax',20),(16,'js','js',10),(17,'Produto com estilo','Estiloso',100),(18,'sdafd','duplicado1',21),(19,'sdasfd','Logout',100);
+/*!40000 ALTER TABLE `Produto` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `NotaFiscal`
+--
+
+DROP TABLE IF EXISTS `NotaFiscal`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `NotaFiscal` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `cnpj` varchar(255) DEFAULT NULL,
+  `data` date DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `NotaFiscal`
+--
+
+LOCK TABLES `NotaFiscal` WRITE;
+/*!40000 ALTER TABLE `NotaFiscal` DISABLE KEYS */;
+INSERT INTO `NotaFiscal` VALUES (1,'9909090','2013-03-02'),(2,'4443','2013-03-02'),(3,'666','2013-03-02'),(4,'1122','2013-03-02'),(5,'0099','2013-03-26'),(6,'33.333.333/3333-33','2013-03-02'),(7,'44.444.444/4444-44','2013-03-02'),(8,'55.555.555/5555-55','2013-03-02'),(9,'22.222.222/2222-22','2013-03-02'),(10,'88.888.888/8888-88','2013-03-02'),(11,'00.000.000/5555-55','2013-03-02'),(12,'00.006.666/3333-33','2013-03-02'),(13,'10.101.020/2939-44','2013-03-02'),(14,'50.504.959/0434-53','2013-03-02'),(15,'13.429.823/4567-83','2013-03-02'),(16,'97.567.943/5765-63','2013-03-02'),(17,'75.467.456/7878-98','2013-03-02'),(18,'64.856.708/4375-68','2013-03-02'),(19,'04.590.694/0596-03','2015-03-02'),(20,'34.234.145/5765-68','2016-03-02'),(21,'45.243.563/5467-65','2018-03-02');
+/*!40000 ALTER TABLE `NotaFiscal` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `Usuario`
+--
+
+DROP TABLE IF EXISTS `Usuario`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `Usuario` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `login` varchar(255) DEFAULT NULL,
+  `senha` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `Usuario`
+--
+
+LOCK TABLES `Usuario` WRITE;
+/*!40000 ALTER TABLE `Usuario` DISABLE KEYS */;
+INSERT INTO `Usuario` VALUES (1,'admin','admin123');
+/*!40000 ALTER TABLE `Usuario` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2013-03-02 16:46:02

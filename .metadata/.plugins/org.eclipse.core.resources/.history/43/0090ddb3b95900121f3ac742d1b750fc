@@ -1,0 +1,59 @@
+package br.com.caelum.model.comercial;
+
+public class Pizza {
+	private String nome;
+	private String apelido;
+	private String corPreferida;
+	private int idade;
+	private int altura;
+
+	public Pizza(String nome, int idade) {
+		super();
+		this.nome = nome;
+		if (nome == null){
+			System.out.println("vai tomar no cu");
+		}
+		this.idade = idade;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getApelido() {
+		return apelido;
+	}
+
+	public void setApelido(String apelido) {
+		this.apelido = apelido;
+	}
+
+	public String getCorPreferida() {
+		return corPreferida;
+	}
+
+	public void setCorPreferida(String corPreferida) {
+		this.corPreferida = corPreferida;
+	}
+
+	public int getIdade() {
+		return idade;
+	}
+
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+
+	public int getAltura() {
+		return altura;
+	}
+
+	public void setAltura(int altura) {
+		this.altura = altura;
+	}
+
+}

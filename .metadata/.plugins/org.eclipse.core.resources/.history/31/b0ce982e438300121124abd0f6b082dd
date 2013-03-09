@@ -1,0 +1,25 @@
+package br.com.caelum.notasfiscais.mb;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ViewScoped;
+
+import br.com.caelum.notasfiscais.dao.DAO;
+import br.com.caelum.notasfiscais.modelo.NotaFiscal;
+
+@ManagedBean
+@ViewScoped
+public class NotaFiscalBean {
+
+	NotaFiscal notaFiscal = new NotaFiscal();
+
+	public void gravar() {
+		DAO<NotaFiscal> dao = new DAO<>(NotaFiscal.class);
+		dao.adiciona(notaFiscal);
+
+	}
+
+	public NotaFiscal getNotaFiscal() {
+		return notaFiscal;
+	}
+
+}

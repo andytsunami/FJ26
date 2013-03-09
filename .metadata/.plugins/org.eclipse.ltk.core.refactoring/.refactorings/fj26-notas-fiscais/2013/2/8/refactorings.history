@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;arg0&apos; in &apos;br.com.caelum.notasfiscais.listener.CicloDeVidaListener.afterPhase(...)&apos; to &apos;evento&apos;&#x0A;- Original project: &apos;fj26-notas-fiscais&apos;&#x0A;- Original element: &apos;br.com.caelum.notasfiscais.listener.CicloDeVidaListener.afterPhase(PhaseEvent).arg0&apos;&#x0A;- Renamed element: &apos;arg0&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;arg0&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;br.com.caelum.notasfiscais.listener{CicloDeVidaListener.java[CicloDeVidaListener~afterPhase~QPhaseEvent;@arg0!253!267!264!267!QPhaseEvent;!0!true" name="evento" references="true" stamp="1361631012424" version="1.0"/>
+</session>

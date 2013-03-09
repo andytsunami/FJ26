@@ -1,0 +1,35 @@
+package br.com.caelum.empresa.modelo;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.List;
+
+import org.junit.Test;
+
+public class FiltradorDeGastosEspeciaisTest {
+
+	@Test
+	public void testaLimiteDeGastos() throws Exception {
+		FiltradorDeGastosEspeciais lista = new FiltradorDeGastosEspeciais(500);
+		List<Gasto> gastos = new ArrayList<Gasto>();
+
+		Calendar dataNascimento = Calendar.getInstance();
+		Calendar data = Calendar.getInstance();
+
+		Funcionario funcionario = new Funcionario("Teste Junit", 22,
+				dataNascimento);
+		Gasto gasto1 = new Gasto(500, "taxi", funcionario, data);
+		Gasto gasto2 = new Gasto(100, "taxi", funcionario, data);
+		Gasto gasto3 = new Gasto(1000, "taxi", funcionario, data);
+
+		gastos.add(gasto1);
+		gastos.add(gasto2);
+		gastos.add(gasto3);
+
+		List<Gasto> filtraGastosGrandes = lista.filtraGastosGrandes(gastos);
+
+		assertEquals("A lista possui um tamanho diferente do esperado! ", 1,
+				filtraGastosGrandes.size());
+
+	}
+}

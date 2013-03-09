@@ -1,0 +1,24 @@
+package br.com.caelum.model.comercial;
+
+import static br.com.caelum.model.produto.TipoDeProduto.COMIDA;
+
+import java.util.Arrays;
+import java.util.List;
+
+import br.com.caelum.model.produto.Estoque;
+import br.com.caelum.model.produto.Produto;
+
+public class TestaProcessamentoDeEntradaDeEstoque {
+	public static void main(String[] args) {
+		Produto produto1 = new Produto("chocolate", COMIDA, 2.40);
+		Produto produto2 = new Produto("chocolate", COMIDA, 35.70);
+		Produto produto3 = new Produto("chocolate", COMIDA, 6.80);
+		Produto produto4 = new Produto("chocolate", COMIDA, 2.70);
+		Produto produto5 = new Produto("chocolate", COMIDA, 30.00);
+
+		List<Produto> novosProdutos = Arrays.asList(produto1, produto2, produto3, produto4, produto5);
+		new Estoque().getDisponiveis().addAll(novosProdutos);
+
+	}
+
+}

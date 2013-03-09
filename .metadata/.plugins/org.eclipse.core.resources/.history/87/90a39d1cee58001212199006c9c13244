@@ -1,0 +1,22 @@
+package br.com.caelum.empresa.modelo;
+
+import java.util.Calendar;
+
+import org.junit.Test;
+
+public class FiltradorDeGastosEspeciaisTest {
+
+	@Test
+	public void testaLimiteDeGastos() throws Exception {
+		FiltradorDeGastosEspeciais lista = new FiltradorDeGastosEspeciais(500);
+
+		Calendar dataNascimento = Calendar.getInstance();
+		Calendar data = Calendar.getInstance();
+
+		Funcionario funcionario = new Funcionario("Teste Junit", 22,
+				dataNascimento);
+		new Gasto(500, "taxi", funcionario, data);
+
+	}
+
+}
