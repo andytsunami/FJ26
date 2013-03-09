@@ -17,7 +17,7 @@
 				<legend>Dados da Nota</legend>
 
 				<h:outputLabel value="CNPJ Cliente:" />
-				<p:inputMask value="#{notaFiscalBean.notaFiscal.cnpj}" mask="99.999.999/9999-99" converter="cnpj"/>
+				<p:inputMask value="#{notaFiscalBean.notaFiscal.cnpj}" mask="99.999.999/9999-99"/>
 
 				<h:outputLabel value="Data: " />
 				<p:calendar pattern="dd/MM/yyyy" value="#{notaFiscalBean.notaFiscal.data.time}"/>
