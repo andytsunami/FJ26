@@ -72,9 +72,10 @@
 					</h:column>
 					<h:column>
 						<f:facet name="header">Alterar</f:facet>
-						<h:commandLink value="Alterar">
+						<h:commandLink value="Alterar" action="#{produtoBean.produto(p)}">
 							<f:setPropertyActionListener value="#{produto}"
 								target="#{produtoBean.produto}" />
+								<f:ajax execute="@form" render=":cadastro"/>
 						</h:commandLink>
 					</h:column>
 

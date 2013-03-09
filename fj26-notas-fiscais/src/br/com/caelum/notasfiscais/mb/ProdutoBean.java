@@ -33,6 +33,7 @@ public class ProdutoBean {
 	}
 
 	public void setProduto(Produto produto) {
+		System.out.println(produto.getNome());
 		this.produto = produto;
 	}
 
