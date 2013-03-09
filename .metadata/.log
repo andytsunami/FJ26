@@ -5697,3 +5697,372 @@ Caused by: org.eclipse.swt.SWTError: No more handles [Unknown Mozilla path (MOZI
 
 !ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:11:17.786
 !MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_ffffff_256x240.png
+!SESSION 2013-03-09 09:55:48.827 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.315
+!MESSAGE Ignoring invalid id: primefaces/colorpicker/images/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.337
+!MESSAGE Ignoring invalid id: primefaces/dock/assets/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.355
+!MESSAGE Ignoring invalid id: primefaces/editor/images/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.371
+!MESSAGE Ignoring invalid id: primefaces/jquery/ui/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.387
+!MESSAGE Ignoring invalid id: primefaces/lightbox/images/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.407
+!MESSAGE Ignoring invalid id: primefaces/treetable/images/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.428
+!MESSAGE Ignoring invalid id: primefaces/charts/charts.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.439
+!MESSAGE Ignoring invalid id: primefaces/charts/charts.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.451
+!MESSAGE Ignoring invalid id: primefaces/charts/jqplot.txt
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.462
+!MESSAGE Ignoring invalid id: primefaces/colorpicker/colorpicker.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.479
+!MESSAGE Ignoring invalid id: primefaces/colorpicker/colorpicker.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.489
+!MESSAGE Ignoring invalid id: primefaces/confirmdialog/confirmdialog.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.522
+!MESSAGE Ignoring invalid id: primefaces/dock/dock.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.528
+!MESSAGE Ignoring invalid id: primefaces/dock/dock.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.541
+!MESSAGE Ignoring invalid id: primefaces/editor/editor.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.548
+!MESSAGE Ignoring invalid id: primefaces/editor/editor.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.568
+!MESSAGE Ignoring invalid id: primefaces/fileupload/fileupload.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.581
+!MESSAGE Ignoring invalid id: primefaces/fileupload/fileupload.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.600
+!MESSAGE Ignoring invalid id: primefaces/fileupload/ie-anim.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.620
+!MESSAGE Ignoring invalid id: primefaces/fileupload/readme.txt
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.635
+!MESSAGE Ignoring invalid id: primefaces/forms/password-meter.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.656
+!MESSAGE Ignoring invalid id: primefaces/galleria/galleria.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.672
+!MESSAGE Ignoring invalid id: primefaces/galleria/galleria.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.687
+!MESSAGE Ignoring invalid id: primefaces/gmap/gmap.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.709
+!MESSAGE Ignoring invalid id: primefaces/hotkey/hotkey.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.725
+!MESSAGE Ignoring invalid id: primefaces/idlemonitor/idlemonitor.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.745
+!MESSAGE Ignoring invalid id: primefaces/imagecompare/handle.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.762
+!MESSAGE Ignoring invalid id: primefaces/imagecompare/imagecompare.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.786
+!MESSAGE Ignoring invalid id: primefaces/imagecompare/lt-small.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.803
+!MESSAGE Ignoring invalid id: primefaces/imagecompare/rt-small.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.822
+!MESSAGE Ignoring invalid id: primefaces/imagecropper/crop.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.840
+!MESSAGE Ignoring invalid id: primefaces/imagecropper/imagecropper.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.855
+!MESSAGE Ignoring invalid id: primefaces/imagecropper/imagecropper.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.864
+!MESSAGE Ignoring invalid id: primefaces/imageswitch/imageswitch.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.877
+!MESSAGE Ignoring invalid id: primefaces/jquery/jquery.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.889
+!MESSAGE Ignoring invalid id: primefaces/keyboard/keyboard.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.901
+!MESSAGE Ignoring invalid id: primefaces/keyboard/keyboard.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.913
+!MESSAGE Ignoring invalid id: primefaces/layout/layout.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.925
+!MESSAGE Ignoring invalid id: primefaces/layout/layout.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.937
+!MESSAGE Ignoring invalid id: primefaces/log/icons.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.949
+!MESSAGE Ignoring invalid id: primefaces/log/log.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.961
+!MESSAGE Ignoring invalid id: primefaces/log/log.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.973
+!MESSAGE Ignoring invalid id: primefaces/log/panel.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.985
+!MESSAGE Ignoring invalid id: primefaces/messages/messages.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:05.997
+!MESSAGE Ignoring invalid id: primefaces/mousewheel/jquery.mousewheel.min.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:06.003
+!MESSAGE Ignoring invalid id: primefaces/photocam/jscam.swf
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:06.024
+!MESSAGE Ignoring invalid id: primefaces/photocam/photocam.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:06.029
+!MESSAGE Ignoring invalid id: primefaces/photocam/photocam.swf
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:06.040
+!MESSAGE Ignoring invalid id: primefaces/printer/printer.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:06.044
+!MESSAGE Ignoring invalid id: primefaces/rating/delete.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:06.060
+!MESSAGE Ignoring invalid id: primefaces/rating/rating.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:06.073
+!MESSAGE Ignoring invalid id: primefaces/rating/star.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:06.089
+!MESSAGE Ignoring invalid id: primefaces/ring/ring.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:06.105
+!MESSAGE Ignoring invalid id: primefaces/ring/ring.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:06.121
+!MESSAGE Ignoring invalid id: primefaces/schedule/schedule.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:06.137
+!MESSAGE Ignoring invalid id: primefaces/schedule/schedule.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:06.153
+!MESSAGE Ignoring invalid id: primefaces/sheet/sheet.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:06.170
+!MESSAGE Ignoring invalid id: primefaces/sheet/sheet.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:06.186
+!MESSAGE Ignoring invalid id: primefaces/spacer/dot_clear.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:06.198
+!MESSAGE Ignoring invalid id: primefaces/stack/stack.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:06.298
+!MESSAGE Ignoring invalid id: primefaces/stack/stack.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:07.058
+!MESSAGE Ignoring invalid id: primefaces/terminal/terminal.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.361
+!MESSAGE Ignoring invalid id: primefaces/terminal/terminal.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.373
+!MESSAGE Ignoring invalid id: primefaces/watermark/watermark.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.385
+!MESSAGE Ignoring invalid id: primefaces/watermark/watermark.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.397
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_flat_0_2d5972_40x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.409
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_flat_0_4f4f4f_40x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.421
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_flat_0_aaaaaa_40x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.433
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_flat_100_ffffff_40x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.445
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_glass_55_fbf9ee_1x400.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.457
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_highlight-hard_80_85b2cb_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.469
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_highlight-hard_80_c4c4c4_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.481
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_highlight-hard_80_e3e3e3_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.497
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_highlight-soft_100_c4c4c4_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.513
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_highlight-soft_75_85b2cb_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.530
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_inset-hard_65_85b2cb_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.536
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_inset-hard_65_c4c4c4_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.556
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-bg_inset-soft_95_fef1ec_1x100.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.561
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_2d5972_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.582
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_2e83ff_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.598
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_38667f_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.608
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_3a6983_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.622
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_616161_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.638
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_898989_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.649
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_cd0a0a_256x240.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2013-03-09 09:57:08.666
+!MESSAGE Ignoring invalid id: primefaces-aristo/images/ui-icons_ffffff_256x240.png
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-03-09 10:00:54.130
+!MESSAGE Could not load the Tomcat server configuration at /Servers/Tomcat v7.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/Servers/Tomcat v7.0 Server at localhost-config/server.xml'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:793)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.load(Tomcat70Configuration.java:317)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:124)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.getTomcatConfiguration(TomcatServerBehaviour.java:80)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:233)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2013-03-09 10:00:54.131
+!MESSAGE Resource is out of sync with the file system: '/Servers/Tomcat v7.0 Server at localhost-config/server.xml'.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-03-09 10:00:55.785
+!MESSAGE Could not load the Tomcat server configuration at /Servers/Tomcat v7.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/Servers/Tomcat v7.0 Server at localhost-config/server.xml'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:793)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.load(Tomcat70Configuration.java:317)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:124)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.getTomcatConfiguration(TomcatServerBehaviour.java:80)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.setupLaunch(TomcatServerBehaviour.java:496)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatLaunchConfigurationDelegate.launch(TomcatLaunchConfigurationDelegate.java:96)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:696)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3462)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3400)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2013-03-09 10:00:55.785
+!MESSAGE Resource is out of sync with the file system: '/Servers/Tomcat v7.0 Server at localhost-config/server.xml'.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-03-09 10:01:23.395
+!MESSAGE Could not load the Tomcat server configuration at /Servers/Tomcat v7.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/Servers/Tomcat v7.0 Server at localhost-config/server.xml'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:793)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.load(Tomcat70Configuration.java:317)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:124)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.getTomcatConfiguration(TomcatServerBehaviour.java:80)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.setupLaunch(TomcatServerBehaviour.java:496)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatLaunchConfigurationDelegate.launch(TomcatLaunchConfigurationDelegate.java:96)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:696)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3462)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3400)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:367)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2013-03-09 10:01:23.395
+!MESSAGE Resource is out of sync with the file system: '/Servers/Tomcat v7.0 Server at localhost-config/server.xml'.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-03-09 10:01:23.428
+!MESSAGE Could not load the Tomcat server configuration at /Servers/Tomcat v7.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/Servers/Tomcat v7.0 Server at localhost-config/server.xml'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:793)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.load(Tomcat70Configuration.java:317)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:124)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.getTomcatConfiguration(TomcatServerBehaviour.java:80)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:233)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2013-03-09 10:01:23.428
+!MESSAGE Resource is out of sync with the file system: '/Servers/Tomcat v7.0 Server at localhost-config/server.xml'.
+
+!ENTRY org.eclipse.jst.server.core 4 0 2013-03-09 10:02:01.711
+!MESSAGE Could not launch in profiling mode because no profilers are configured.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2013-03-09 10:02:01.755
+!MESSAGE Could not load the Tomcat server configuration at /Servers/Tomcat v7.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/Servers/Tomcat v7.0 Server at localhost-config/server.xml'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:793)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat70Configuration.load(Tomcat70Configuration.java:317)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:124)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.getTomcatConfiguration(TomcatServerBehaviour.java:80)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:233)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:948)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2013-03-09 10:02:01.756
+!MESSAGE Resource is out of sync with the file system: '/Servers/Tomcat v7.0 Server at localhost-config/server.xml'.
