@@ -1,38 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-<fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="br.com.caelum.empresa.modelo.DadosPessoais"/>
-<fullyQualifiedTypeName name="br.com.caelum.empresa.modelo.FiltradorDeGastosEspeciais"/>
-<fullyQualifiedTypeName name="br.com.caelum.empresa.modelo.Gasto"/>
-<fullyQualifiedTypeName name="br.com.caelum.empresa.modelo.Funcionario"/>
-<fullyQualifiedTypeName name="java.util.Calendar"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="org.junit.Assert"/>
-<fullyQualifiedTypeName name="br.com.caelum.model.comercial.Pizza"/>
-<fullyQualifiedTypeName name="br.com.caelum.model.produto.TipoDeProduto"/>
-<fullyQualifiedTypeName name="br.com.caelum.model.produto.Produto"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="br.com.caelum.model.produto.Estoque"/>
-<fullyQualifiedTypeName name="javax.faces.bean.SessionScoped"/>
-<fullyQualifiedTypeName name="javax.faces.event.PhaseListener"/>
-<fullyQualifiedTypeName name="javax.faces.event.PhaseId"/>
-<fullyQualifiedTypeName name="javax.faces.application.NavigationHandler"/>
-<fullyQualifiedTypeName name="br.com.caelum.notasfiscais.mb.LoginBean"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="br.com.caelum.notasfiscais.dao.UsuarioDAO"/>
-<fullyQualifiedTypeName name="br.com.caelum.notasfiscais.modelo.Usuario"/>
-<fullyQualifiedTypeName name="javax.faces.bean.ViewScoped"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
-<fullyQualifiedTypeName name="br.com.caelum.notasfiscais.modelo.Produto"/>
-<fullyQualifiedTypeName name="br.com.caelum.notasfiscais.modelo.Item"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="br.com.caelum.notasfiscais.mb.ListaNotasFiscaisBean"/>
-<fullyQualifiedTypeName name="org.primefaces.model.LazyDataModel"/>
-<fullyQualifiedTypeName name="br.com.caelum.notasfiscais.datamodel.DataModelNotasFiscais"/>
-<fullyQualifiedTypeName name="br.com.caelum.notasfiscais.dao.DAO"/>
-<fullyQualifiedTypeName name="br.com.caelum.notasfiscais.modelo.NotaFiscal"/>
-<fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
-<fullyQualifiedTypeName name="javax.faces.bean.RequestScoped"/>
+<fullyQualifiedTypeName name="javax.inject.Named"/>
+<fullyQualifiedTypeName name="javax.enterprise.context.SessionScoped"/>
+<fullyQualifiedTypeName name="javax.enterprise.context.RequestScoped"/>
+<fullyQualifiedTypeName name="br.com.caelum.notasfiscais.validator.UsuarioLogado"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
+<fullyQualifiedTypeName name="br.com.caelum.notasfiscais.modelo.Usuario"/>
 </qualifiedTypeNameHistroy>
