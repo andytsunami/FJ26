@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sat Mar 16 12:50:42 BRT 2013
+org.eclipse.jst.jee.server\:/binary\:/media/CAELUM/FJ26/fj26-notas-fiscais/WebContent/WEB-INF/lib/seam-faces.jar=WEB-INF/lib/seam-faces.jar
+org.eclipse.jst.jee.server\:/binary\:/media/CAELUM/FJ26/fj26-notas-fiscais/WebContent/WEB-INF/lib/solder-impl.jar=WEB-INF/lib/solder-impl.jar

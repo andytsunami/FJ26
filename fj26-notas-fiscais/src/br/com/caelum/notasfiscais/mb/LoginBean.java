@@ -2,7 +2,7 @@ package br.com.caelum.notasfiscais.mb;
 
 import java.io.Serializable;
 
-import javax.enterprise.context.RequestScoped;
+import javax.faces.bean.RequestScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 

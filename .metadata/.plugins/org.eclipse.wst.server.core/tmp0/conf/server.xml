@@ -124,7 +124,9 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." resolveHosts="false" suffix=".txt"/>
 
-      <Context docBase="/media/CAELUM/FJ26/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/media/CAELUM/FJ26/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/fj26-notas-fiscais" path="/fj26-notas-fiscais" reloadable="true" source="org.eclipse.jst.jee.server:fj26-notas-fiscais"/></Host>
+      <Context docBase="/media/CAELUM/FJ26/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/media/CAELUM/FJ26/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/fj26-notas-fiscais" path="/fj26-notas-fiscais" reloadable="true" source="org.eclipse.jst.jee.server:fj26-notas-fiscais">
+    <Resource auth="Container" factory="org.jboss.weld.resources.ManagerObjectFactory" name="BeanManager" type="javax.enterprise.inject.spi.BeanManager"/>
+  </Context></Host>
     </Engine>
   </Service>
 </Server>

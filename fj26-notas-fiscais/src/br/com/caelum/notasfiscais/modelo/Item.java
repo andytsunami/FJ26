@@ -1,16 +1,24 @@
 package br.com.caelum.notasfiscais.modelo;
 
+import java.io.Serializable;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 @Entity
-public class Item {
+public class Item implements Serializable {
 
-	@Id @GeneratedValue
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4022002629521104192L;
+
+	@Id
+	@GeneratedValue
 	private Long id;
-	
+
 	@ManyToOne
 	private NotaFiscal notaFiscal;
 
@@ -18,7 +26,7 @@ public class Item {
 	private Produto produto;
 
 	private Integer quantidade;
-	
+
 	private Double valorUnitario;
 
 	public Long getId() {
@@ -60,7 +68,7 @@ public class Item {
 	public void setNotaFiscal(NotaFiscal notaFiscal) {
 		this.notaFiscal = notaFiscal;
 	}
-	
+
 	public Double getTotal() {
 		if (quantidade != null && valorUnitario != null)
 			return quantidade * valorUnitario;

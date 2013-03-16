@@ -1,7 +1,7 @@
 package br.com.caelum.notasfiscais.mb;
 
-import javax.faces.bean.ManagedBean;
-import javax.faces.bean.RequestScoped;
+import javax.enterprise.context.RequestScoped;
+import javax.inject.Named;
 
 import org.primefaces.model.LazyDataModel;
 
@@ -9,7 +9,7 @@ import br.com.caelum.notasfiscais.dao.DAO;
 import br.com.caelum.notasfiscais.datamodel.DataModelNotasFiscais;
 import br.com.caelum.notasfiscais.modelo.NotaFiscal;
 
-@ManagedBean
+@Named
 @RequestScoped
 public class ListaNotasFiscaisBean {
 
