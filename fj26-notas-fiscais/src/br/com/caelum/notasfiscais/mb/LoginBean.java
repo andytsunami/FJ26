@@ -33,6 +33,7 @@ public class LoginBean implements Serializable {
 		} else {
 			usuarioLogado.setUsuario(null);
 			return "login";
+
 		}
 	}
 
@@ -46,7 +47,7 @@ public class LoginBean implements Serializable {
 
 	public String efetuaLogout() {
 
-		usuarioLogado.setUsuario(new Usuario());
+		usuarioLogado.setUsuario(null);
 		return "login?faces-redirect=true";
 
 	}
