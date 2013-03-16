@@ -21,16 +21,16 @@
 					</p:inputText>
 
 					<h:outputLabel value="Descrição: " for="descricao" />
-					<p:editor id="descricao"
-						value="#{produtoBean.produto.descricao}"  />
+					<p:inputTextarea id="descricao"
+						value="#{produtoBean.produto.descricao}" />
 
 
 					<h:outputLabel value="Preço: " for="preco" />
-					<p:inputText id="preco" value="#{produtoBean.produto.preco}"
+					<h:inputText id="preco" value="#{produtoBean.produto.preco}"
 						validatorMessage="O valor mínimo é 0,50" required="true"
 						requiredMessage="Preço obrigatorio">
 						<f:validateDoubleRange minimum="0.50" />
-					</p:inputText>
+					</h:inputText>
 
 
 					<f:ajax execute="@form" render=":tabela @form">
@@ -41,45 +41,45 @@
 					</f:ajax>
 
 
-				</p:fieldset>
+				</p:fieldset>>
 
 			</h:form>
 			<h:form id="tabela">
 				<h2>Listagem de produtos</h2>
 
-				<p:dataTable value="#{produtoBean.produtos}" var="p"
+				<h:dataTable value="#{produtoBean.produtos}" var="p"
 					styleClass="dados" rowClasses="impar,par">
-					<p:column>
+					<h:column>
 						<f:facet name="header">Nome</f:facet>
 	    #{p.nome}
-	  </p:column>
+	  </h:column>
 
-					<p:column>
+					<h:column>
 						<f:facet name="header">Descrição</f:facet>
 	    #{p.descricao}
-	  </p:column>
-					<p:column footerClass="rodape">
+	  </h:column>
+					<h:column footerClass="rodape">
 						<f:facet name="header">Preço</f:facet>
 						<f:facet name="footer">Soma: #{produtoBean.somatorio}</f:facet>
 	    #{p.preco}
 
-	  </p:column>
-					<p:column>
+	  </h:column>
+					<h:column>
 						<f:facet name="header">Excluir</f:facet>
 						<h:commandLink value="Remove" action="#{produtoBean.remove(p)}">
 							<f:ajax render="@form" />
 						</h:commandLink>
-					</p:column>
-					<p:column>
+					</h:column>
+					<h:column>
 						<f:facet name="header">Alterar</f:facet>
 						<h:commandLink value="Alterar" action="#{produtoBean.produto(p)}">
 							<f:setPropertyActionListener value="#{produto}"
 								target="#{produtoBean.produto}" />
 								<f:ajax execute="@form" render=":cadastro"/>
 						</h:commandLink>
-					</p:column>
+					</h:column>
 
-				</p:dataTable>
+				</h:dataTable>
 
 			</h:form>
 		</ui:define>

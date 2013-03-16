@@ -16,12 +16,12 @@
 				<p:fieldset legend="Dados do Produto">
 
 					<h:outputLabel value="Nome: " for="nome" />
-					<p:inputText id="nome" value="#{produtoBean.produto.nome}">
+					<p:editor id="nome" value="#{produtoBean.produto.nome}">
 						<f:validator validatorId="ccm" />
-					</p:inputText>
+					</p:editor>
 
 					<h:outputLabel value="Descrição: " for="descricao" />
-					<p:editor id="descricao"
+					<p:inputTextarea id="descricao"
 						value="#{produtoBean.produto.descricao}"  />
 
 

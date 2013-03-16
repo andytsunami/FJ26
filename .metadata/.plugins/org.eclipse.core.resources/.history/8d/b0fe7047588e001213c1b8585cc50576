@@ -21,8 +21,8 @@
 					</p:inputText>
 
 					<h:outputLabel value="Descrição: " for="descricao" />
-					<p:editor id="descricao"
-						value="#{produtoBean.produto.descricao}"  />
+					<p:inputTextarea id="descricao"
+						value="#{produtoBean.produto.descricao}" />
 
 
 					<h:outputLabel value="Preço: " for="preco" />

@@ -11,36 +11,43 @@
 	<ui:define name="corpo">
 
 		<h:form>
-		<h:messages styleClass="erros"/>
+			<h:messages styleClass="erros" />
+			<p:tabView>
+				<p:tab title="Dados da Nota">
+					<fieldset>
+						<legend>Dados da Nota</legend>
 
-			<fieldset>
-				<legend>Dados da Nota</legend>
+						<h:outputLabel value="CNPJ Cliente:" />
+						<p:inputMask value="#{notaFiscalBean.notaFiscal.cnpj}"
+							mask="99.999.999/9999-99" converter="cnpj" />
 
-				<h:outputLabel value="CNPJ Cliente:" />
-				<p:inputMask value="#{notaFiscalBean.notaFiscal.cnpj}" mask="99.999.999/9999-99" converter="cnpj"/>
+						<h:outputLabel value="Data: " />
+						<p:calendar pattern="dd/MM/yyyy"
+							value="#{notaFiscalBean.notaFiscal.data.time}" />
 
-				<h:outputLabel value="Data: " />
-				<p:calendar pattern="dd/MM/yyyy" value="#{notaFiscalBean.notaFiscal.data.time}"/>
+					</fieldset>
+				</p:tab>
+				<p:tab title="Dados do item">
+					<fieldset>
+						<legend>Dados do item</legend>
 
-			</fieldset>
+						<h:outputLabel value="Produto: " />
+						<h:selectOneMenu value="#{notaFiscalBean.idProduto}">
+							<f:selectItems value="#{produtoBean.produtos}" var="produto"
+								itemValue="#{produto.id}" itemLabel="#{produto.nome}" />
+						</h:selectOneMenu>
 
-			<fieldset>
-				<legend>Dados do item</legend>
+						<h:outputLabel value="Quantidade: " />
+						<h:inputText value="#{notaFiscalBean.item.quantidade}" />
 
-				<h:outputLabel value="Produto: " />
-				<h:selectOneMenu value="#{notaFiscalBean.idProduto}">
-					<f:selectItems value="#{produtoBean.produtos}" var="produto"
-						itemValue="#{produto.id}" itemLabel="#{produto.nome}" />
-				</h:selectOneMenu>
+						<h:commandButton action="#{notaFiscalBean.guardaItem}"
+							value="Guardar Item">
+							<f:ajax execute="@form" render="@form" />
+						</h:commandButton>
+					</fieldset>
+				</p:tab>
+			</p:tabView>
 
-				<h:outputLabel value="Quantidade: " />
-				<h:inputText value="#{notaFiscalBean.item.quantidade}" />
-
-				<h:commandButton action="#{notaFiscalBean.guardaItem}"
-					value="Guardar Item">
-					<f:ajax execute="@form" render="@form"/>
-					</h:commandButton>
-			</fieldset>
 
 			<h2>Itens da nota fiscal</h2>
 			<p:dataTable value="#{notaFiscalBean.notaFiscal.itens}" var="item"
@@ -71,8 +78,10 @@
 
 			</p:dataTable>
 
+
+
 			<h:commandButton value="Gravar" action="#{notaFiscalBean.gravar}">
-			  <f:ajax execute="@form" render="@form"/>
+				<f:ajax execute="@form" render="@form" />
 			</h:commandButton>
 
 		</h:form>

@@ -3,7 +3,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:f="http://java.sun.com/jsf/core"
 	xmlns:h="http://java.sun.com/jsf/html"
-	xmlns:ui="http://java.sun.com/jsf/facelets">
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
 
 <h:body>
 
@@ -12,25 +13,24 @@
 			<h:form id="cadastro">
 				<h:messages styleClass="erros" />
 				<h2>Novo produto</h2>
-				<fieldset>
-					<legend>Dados do Produto</legend>
+				<p:fieldset legend="Dados do Produto">
 
 					<h:outputLabel value="Nome: " for="nome" />
-					<h:inputText id="nome" value="#{produtoBean.produto.nome}">
+					<p:inputText id="nome" value="#{produtoBean.produto.nome}">
 						<f:validator validatorId="ccm" />
-					</h:inputText>
+					</p:inputText>
 
 					<h:outputLabel value="Descrição: " for="descricao" />
-					<h:inputTextarea id="descricao"
-						value="#{produtoBean.produto.descricao}" />
+					<p:editor id="descricao"
+						value="#{produtoBean.produto.descricao}"  />
 
 
 					<h:outputLabel value="Preço: " for="preco" />
-					<h:inputText id="preco" value="#{produtoBean.produto.preco}"
+					<p:inputText id="preco" value="#{produtoBean.produto.preco}"
 						validatorMessage="O valor mínimo é 0,50" required="true"
 						requiredMessage="Preço obrigatorio">
 						<f:validateDoubleRange minimum="0.50" />
-					</h:inputText>
+					</p:inputText>
 
 
 					<f:ajax execute="@form" render=":tabela @form">
@@ -41,45 +41,45 @@
 					</f:ajax>
 
 
-				</fieldset>
+				</p:fieldset>
 
 			</h:form>
 			<h:form id="tabela">
 				<h2>Listagem de produtos</h2>
 
-				<h:dataTable value="#{produtoBean.produtos}" var="p"
+				<p:dataTable value="#{produtoBean.produtos}" var="p"
 					styleClass="dados" rowClasses="impar,par">
-					<h:column>
+					<p:column>
 						<f:facet name="header">Nome</f:facet>
 	    #{p.nome}
-	  </h:column>
+	  </p:column>
 
-					<h:column>
+					<p:column>
 						<f:facet name="header">Descrição</f:facet>
 	    #{p.descricao}
-	  </h:column>
-					<h:column footerClass="rodape">
+	  </p:column>
+					<p:column footerClass="rodape">
 						<f:facet name="header">Preço</f:facet>
 						<f:facet name="footer">Soma: #{produtoBean.somatorio}</f:facet>
 	    #{p.preco}
 
-	  </h:column>
-					<h:column>
+	  </p:column>
+					<p:column>
 						<f:facet name="header">Excluir</f:facet>
 						<h:commandLink value="Remove" action="#{produtoBean.remove(p)}">
 							<f:ajax render="@form" />
 						</h:commandLink>
-					</h:column>
-					<h:column>
+					</p:column>
+					<p:column>
 						<f:facet name="header">Alterar</f:facet>
 						<h:commandLink value="Alterar" action="#{produtoBean.produto(p)}">
 							<f:setPropertyActionListener value="#{produto}"
 								target="#{produtoBean.produto}" />
 								<f:ajax execute="@form" render=":cadastro"/>
 						</h:commandLink>
-					</h:column>
+					</p:column>
 
-				</h:dataTable>
+				</p:dataTable>
 
 			</h:form>
 		</ui:define>

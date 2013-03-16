@@ -26,8 +26,6 @@
 							value="#{notaFiscalBean.notaFiscal.data.time}" />
 
 					</fieldset>
-				</p:tab>
-				<p:tab title="Dados do item">
 					<fieldset>
 						<legend>Dados do item</legend>
 
@@ -46,39 +44,39 @@
 						</h:commandButton>
 					</fieldset>
 				</p:tab>
-			</p:tabView>
+				<p:tab title="Itens da nota fiscal">
 
-
-			<h2>Itens da nota fiscal</h2>
-			<p:dataTable value="#{notaFiscalBean.notaFiscal.itens}" var="item"
-				styleClass="dados" rowClasses="impar,par" paginator="true" rows="5">
-				<p:column>
-					<f:facet name="header">Produto</f:facet>
+					<h2>Itens da nota fiscal</h2>
+					<p:dataTable value="#{notaFiscalBean.notaFiscal.itens}" var="item"
+						styleClass="dados" rowClasses="impar,par" paginator="true"
+						rows="5">
+						<p:column>
+							<f:facet name="header">Produto</f:facet>
 			     #{item.produto.nome}
 			   </p:column>
-				<p:column>
-					<f:facet name="header">Valor unitario</f:facet>
-					<h:outputText value="#{item.valorUnitario}">
-						<f:convertNumber type="currency" currencySymbol="R$"
-							locale="pt_BR" />
-					</h:outputText>
-				</p:column>
-				<p:column>
-					<f:facet name="header">Quantidade</f:facet>
+						<p:column>
+							<f:facet name="header">Valor unitario</f:facet>
+							<h:outputText value="#{item.valorUnitario}">
+								<f:convertNumber type="currency" currencySymbol="R$"
+									locale="pt_BR" />
+							</h:outputText>
+						</p:column>
+						<p:column>
+							<f:facet name="header">Quantidade</f:facet>
 			     #{item.quantidade}
 			   </p:column>
-				<p:column>
-					<f:facet name="header">Total</f:facet>
+						<p:column>
+							<f:facet name="header">Total</f:facet>
 
-					<h:outputText value="#{item.total}">
-						<f:convertNumber type="currency" currencySymbol="R$"
-							locale="pt_BR" />
-					</h:outputText>
-				</p:column>
+							<h:outputText value="#{item.total}">
+								<f:convertNumber type="currency" currencySymbol="R$"
+									locale="pt_BR" />
+							</h:outputText>
+						</p:column>
 
-			</p:dataTable>
-
-
+					</p:dataTable>
+				</p:tab>
+			</p:tabView>
 
 			<h:commandButton value="Gravar" action="#{notaFiscalBean.gravar}">
 				<f:ajax execute="@form" render="@form" />
