@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.enterprise.context.RequestScoped"/>
+<fullyQualifiedTypeName name="javax.faces.bean.ViewScoped"/>
+<fullyQualifiedTypeName name="javax.faces.bean.RequestScoped"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="org.primefaces.component.themeswitcher.ThemeSwitcher"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="javax.inject.Named"/>
 <fullyQualifiedTypeName name="javax.enterprise.context.SessionScoped"/>
-<fullyQualifiedTypeName name="javax.enterprise.context.RequestScoped"/>
-<fullyQualifiedTypeName name="br.com.caelum.notasfiscais.validator.UsuarioLogado"/>
+<fullyQualifiedTypeName name="javax.faces.validator.FacesValidator"/>
+<fullyQualifiedTypeName name="javax.faces.validator.Validator"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="javax.persistence.Query"/>
 <fullyQualifiedTypeName name="javax.inject.Inject"/>
-<fullyQualifiedTypeName name="br.com.caelum.notasfiscais.modelo.Usuario"/>
+<fullyQualifiedTypeName name="org.jboss.seam.faces.validation.InputField"/>
+<fullyQualifiedTypeName name="javax.faces.validator.ValidatorException"/>
+<fullyQualifiedTypeName name="javax.faces.application.FacesMessage"/>
 </qualifiedTypeNameHistroy>

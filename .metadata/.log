@@ -264,3 +264,6 @@ org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 3; Element type "Res
 	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3087)
 	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 380 2013-03-16 15:15:19.534
+!MESSAGE The resource tree is locked for modifications.

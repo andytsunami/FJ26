@@ -4,11 +4,11 @@
 		<item value="false" key="ShowDerived"/>
 		<item value="true" key="ShowStatusLine"/>
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/LoginBean.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/fj26-notas-fiscais/src/META-INF/persistence.xml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/LoginBean.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/datamodel/DataModelNotasFiscais.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fj26-notas-fiscais/WebContent/resources/caelum/campoTexto.xhtml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fj26-notas-fiscais/WebContent/META-INF/context.xml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fj26-notas-fiscais/WebContent/WEB-INF/web.xml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/mb/NotaFiscalBean.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fj26-notas-fiscais/WebContent/login.xhtml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fj26-notas-fiscais/WebContent/produto.xhtml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fj26-notas-fiscais/WebContent/_template.xhtml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fj26-notas-fiscais/WebContent/notafiscal.xhtml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fj26-notas-fiscais/src/br/com/caelum/notasfiscais/dao/JPAUtil.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
 		<section name="DialogBoundsSettings">
 			<item value="600" key="DIALOG_WIDTH"/>
-			<item value="194" key="DIALOG_Y_ORIGIN"/>
-			<item value="541" key="DIALOG_X_ORIGIN"/>
+			<item value="53" key="DIALOG_Y_ORIGIN"/>
+			<item value="384" key="DIALOG_X_ORIGIN"/>
 			<item value="500" key="DIALOG_HEIGHT"/>
 			<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		</section>

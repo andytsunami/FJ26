@@ -4,7 +4,8 @@
 	xmlns:f="http://java.sun.com/jsf/core"
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:ui="http://java.sun.com/jsf/facelets"
-	xmlns:p="http://primefaces.org/ui">
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:s="http://jboss.org/seam/faces">
 
 <h:body>
 
@@ -21,8 +22,7 @@
 					</p:inputText>
 
 					<h:outputLabel value="Descrição: " for="descricao" />
-					<p:editor id="descricao"
-						value="#{produtoBean.produto.descricao}"  />
+					<p:editor id="descricao" value="#{produtoBean.produto.descricao}" />
 
 
 					<h:outputLabel value="Preço: " for="preco" />
@@ -39,6 +39,8 @@
 							action="#{produtoBean.cancela}" update="@form"
 							rendered="#{not empty produtoBean.produto.id}" />
 					</f:ajax>
+					
+					<s:validateForm validatorId="nomejaexistente"/>
 
 
 				</p:fieldset>
@@ -75,7 +77,7 @@
 						<h:commandLink value="Alterar" action="#{produtoBean.produto(p)}">
 							<f:setPropertyActionListener value="#{produto}"
 								target="#{produtoBean.produto}" />
-								<f:ajax execute="@form" render=":cadastro"/>
+							<f:ajax execute="@form" render=":cadastro" />
 						</h:commandLink>
 					</p:column>
 

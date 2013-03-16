@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="">
-		<item value="1000" key="org.eclipse.search.resultpage.limit"/>
-		<item value="TRUE" key="org.eclipse.jdt.search.resultpage.limit_enabled"/>
-		<item value="1000" key="org.eclipse.jdt.search.resultpage.limit"/>
-	</section>
 	<section name="org.eclipse.jdt.ui.JavaSearchResultPage">
 		<item value="TRUE" key="org.eclipse.jdt.search.resultpage.limit_enabled"/>
 		<item value="1000" key="org.eclipse.jdt.search.resultpage.limit"/>
@@ -16,9 +11,9 @@
 	</section>
 	<section name="DialogBounds_SearchDialog">
 		<item value="765" key="DIALOG_WIDTH"/>
-		<item value="66" key="DIALOG_Y_ORIGIN"/>
-		<item value="302" key="DIALOG_X_ORIGIN"/>
+		<item value="81" key="DIALOG_Y_ORIGIN"/>
 		<item value="516" key="DIALOG_HEIGHT"/>
+		<item value="302" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="Search">
@@ -52,7 +47,7 @@
 		</section>
 		<section name="HISTORY0">
 			<item value="false" key="isRegExSearch"/>
-			<item value="context" key="textPattern"/>
+			<item value="Iniciando a gravaçao...." key="textPattern"/>
 			<item value="0" key="scope"/>
 			<item value="true" key="ignoreCase"/>
 			<list key="fileNamePatterns">
@@ -63,7 +58,7 @@
 		</section>
 		<section name="HISTORY1">
 			<item value="false" key="isRegExSearch"/>
-			<item value="carregando" key="textPattern"/>
+			<item value="@ManagedBean" key="textPattern"/>
 			<item value="0" key="scope"/>
 			<item value="true" key="ignoreCase"/>
 			<list key="fileNamePatterns">
