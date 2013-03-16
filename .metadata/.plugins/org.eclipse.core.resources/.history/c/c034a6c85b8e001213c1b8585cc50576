@@ -1,0 +1,8 @@
+package br.com.caelum.notasfiscais.mb;
+
+import java.io.Serializable;
+
+public class TrocaTema implements Serializable{
+	
+
+}

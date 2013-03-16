@@ -4,13 +4,11 @@ import java.io.Serializable;
 
 import javax.faces.bean.RequestScoped;
 import javax.inject.Inject;
-import javax.inject.Named;
 
 import br.com.caelum.notasfiscais.dao.UsuarioDAO;
 import br.com.caelum.notasfiscais.modelo.Usuario;
 import br.com.caelum.notasfiscais.validator.UsuarioLogado;
 
-@Named
 @RequestScoped
 public class LoginBean implements Serializable {
 	/**

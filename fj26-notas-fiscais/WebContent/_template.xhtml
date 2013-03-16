@@ -19,7 +19,13 @@
 	<div id="usuarioLogado">
 		<h:form>
 	  Logado como: #{usuarioLogado.usuario.login}
-	  <h:commandLink value="Logout" action="#{loginBean.efetuaLogout}" />
+	  <h:commandLink value="Logout" action="#{loginBean.efetuaLogout}" />		  
+		    <h:outputText value="Tema"/>
+		    <p:themeSwitcher style="width:165px" id="defaultSwitcher">
+		      <f:selectItem itemLabel="Escolha o tema" itemValue=""/>
+		      <f:selectItems value="#{temaBean.temas}" itemValue=""/>
+		    </p:themeSwitcher>
+		
 		</h:form>
 	</div>
 

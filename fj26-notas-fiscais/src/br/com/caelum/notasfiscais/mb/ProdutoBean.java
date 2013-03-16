@@ -4,12 +4,10 @@ import java.io.Serializable;
 import java.util.List;
 
 import javax.faces.bean.ViewScoped;
-import javax.inject.Named;
 
 import br.com.caelum.notasfiscais.dao.DAO;
 import br.com.caelum.notasfiscais.modelo.Produto;
 
-@Named
 @ViewScoped
 public class ProdutoBean implements Serializable {
 	/**
